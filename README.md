@@ -2,7 +2,7 @@
 The goal is to create a repository with description of all syscalls that should possibly be blocked in a docker container. Docker provided description for some of the blocked syscalls, yet not all. 
 
 ### Feel free to contribute
-With time, the table will be filled with descriptions for all blocked syscalls.
+With time, the table will be filled with descriptions for all blocked syscalls. In addition, you can create a markdown file for a syscall containing more detailed information about why it should be blocked, or give a POC in this [format](init_module.md).
 
 ### Syscalls blocked by the default profile
 Docker's [default seccomp profile](https://github.com/moby/moby/blob/master/profiles/seccomp/default.json) is a whitelist which specifies the calls that
